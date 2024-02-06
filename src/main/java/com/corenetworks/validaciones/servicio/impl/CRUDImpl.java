@@ -28,7 +28,7 @@ public abstract class CRUDImpl<T,ID> implements ICRUD<T,ID> {
     }
 
     @Override
-    public List<T> consultarTodos(T t) {
+    public List<T> consultarTodos() {
         return getRepo().findAll();
     }
 }

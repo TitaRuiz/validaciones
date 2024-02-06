@@ -9,6 +9,6 @@ public interface ICRUD<T,ID>{
     void eliminar(ID id);
     T consultarUno(ID id);
 
-    List<T> consultarTodos(T t);
+    List<T> consultarTodos();
 
 }
